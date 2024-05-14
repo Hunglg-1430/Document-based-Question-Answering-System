@@ -69,7 +69,7 @@ def create_embeddings_and_index(texts, index_name):
 if __name__ == "__main__":
     initialize_index()
 
-    document_path = 'How_Conversational_Business_Can_Help_You_Get_and_Stay_Closer_to_Customers.pdf'
+    document_path = 'data\sample.pdf'
     data = load_pdf_document(document_path)
 
     print(f'Loaded a PDF with {len(data)} pages')
