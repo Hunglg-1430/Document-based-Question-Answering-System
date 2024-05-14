@@ -43,7 +43,7 @@ This project processes documents and performs question-answering using OpenAI an
      $ python document_processing.py
      ```
 
-4. **Start the Streamlit Application**:
+4. **Start the Streamlit**:
 
    - Use Streamlit to run the `main.py` script.
 
